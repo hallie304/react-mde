@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lthha/react-mde.git"
+    "url": "git+https://github.com/hallie304/react-mde.git"
   },
   "keywords": [
     "react",
@@ -30,7 +30,7 @@
   "author": "Andre Pena",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lthha/react-mde.git/issues"
+    "url": "https://github.com/hallie304/react-mde.git/issues"
   },
   "devDependencies": {
     "@chakra-ui/react": "^1.8.8",
@@ -67,5 +67,5 @@
     "vite": "^2.9.5",
     "yarn": "^1.22.18"
   },
-  "homepage": "https://lthha.github.io/react-mde/"
+  "homepage": "https://hallie304.github.io/react-mde/"
 }

@@ -11,11 +11,13 @@
     "lint": "pretty-quick",
     "tsc": "tsc",
     "build": "rollup -c",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrerpena/react-mde.git"
+    "url": "git+https://github.com/lthha/react-mde.git"
   },
   "keywords": [
     "react",
@@ -28,7 +30,7 @@
   "author": "Andre Pena",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrerpena/react-mde.git/issues"
+    "url": "https://github.com/lthha/react-mde.git/issues"
   },
   "devDependencies": {
     "@chakra-ui/react": "^1.8.8",
@@ -64,5 +66,5 @@
     "vite": "^2.9.5",
     "yarn": "^1.22.18"
   },
-  "homepage": "https://github.com/andrerpena/react-mde.git#readme"
+  "homepage": "https://github.com/lthha/react-mde.git#readme"
 }
